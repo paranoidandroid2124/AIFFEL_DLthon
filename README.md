@@ -15,7 +15,7 @@ DLthon을 준비하는 레포지토리입니다.
 | 염철헌(팀장) | [깃허브](https://github.com/paranoidandroid2124/) | TBD |
 | 김유은 | [깃허브](https://github.com/yoo-eun00) | TBD |
 | 김천지 | [깃허브](https://github.com/CheonjiKim) | TBD |
-| 손병진 | [깃허브](링크) | TBD |
+| 손병진 | [깃허브](https://github.com/SonByeongJin) | TBD |
 
 ### 세부 일정
 
