@@ -4,6 +4,8 @@ DLthon을 준비하는 레포지토리입니다.
 # 주제: DKTC
 본 프로젝트의 주제는 DKTC(Dataset of Korean Threatening Conversations)로, 일반텍스트까지 총 5개의 클래스를 분류하는 문제입니다. 자세한 설명은 [원본](https://github.com/tunib-ai/DKTC)에 기재되어 있습니다.
 
+본 프로젝트는 [AIFFEL](https://www.kaggle.com/competitions/aiffel-dl-thon-dktc-online-12) 캐글 페이지에 submission.csv를 제출합니다.
+
 ## 핵심 과제
 DKTC 훈련 데이터에 합성 데이터를 추가하여,  
 협박 대화 = 0,  
@@ -12,7 +14,6 @@ DKTC 훈련 데이터에 합성 데이터를 추가하여,
 기타 괴롭힘 대화 = 3,  
 일반 대화 = 4 의 총 5가지 대화 유형 클래스를 분류하는 모델을 작성합니다.
 
-테스트 데이터를 활용해 성능을 평가하고, submission.csv 파일 형식으로 캐글에 제출합니다.
 
 ### 멤버
 
