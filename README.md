@@ -1,7 +1,7 @@
 # AIFFEL_DLthon 01
 DLthon을 준비하는 레포지토리입니다.
 
-# DKTC
+# 주제: DKTC
 본 프로젝트의 주제는 DKTC(Dataset of Korean Threatening Conversations)로, 일반텍스트까지 총 5개의 클래스를 분류하는 문제입니다. 자세한 설명은 [원본](https://github.com/tunib-ai/DKTC)에 기재되어 있습니다.
 
 ## 핵심 과제
