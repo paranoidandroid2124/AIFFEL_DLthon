@@ -2,7 +2,7 @@
 DLthon을 준비하는 레포지토리입니다.
 
 # 팀명: BIGMAC
-#### __B__est __I__ntelligent __G__roup for __M__achine learning __A__nd __C__lassification
+**B**est **I**ntelligent **G**roup for **M**achine learning **A**nd **C**lassification
 
 
 # 주제: DKTC
