@@ -19,10 +19,10 @@ DKTC 훈련 데이터에 합성 데이터를 추가하여,
 
 | 이름   | 깃허브 | 담당 |
 |--------|--------|----------------------------|
-| 염철헌(팀장) | [깃허브](https://github.com/paranoidandroid2124/) | TBD |
-| 김유은 | [깃허브](https://github.com/yoo-eun00) | TBD |
-| 김천지 | [깃허브](https://github.com/CheonjiKim) | TBD |
-| 손병진 | [깃허브](https://github.com/SonByeongJin) | TBD |
+| 염철헌(팀장) | [깃허브](https://github.com/paranoidandroid2124/) | 모델 설계(textCNN, BiLSTM), 앙상블 스태킹, 데이터 증강 |
+| 김유은 | [깃허브](https://github.com/yoo-eun00) | 모델 설계(KoBERT), 하이퍼파라미터 튜닝 |
+| 김천지 | [깃허브](https://github.com/CheonjiKim) | 모델 설계(KoBERT), 하이퍼파라미터 튜닝 |
+| 손병진 | [깃허브](https://github.com/SonByeongJin) | 모델 설계(KoELECTRA), 합성데이터 준비 및 전처리 |
 
 ### 세부 일정
 
@@ -34,7 +34,12 @@ DKTC 훈련 데이터에 합성 데이터를 추가하여,
 | 4 | 25.02.21(금) | 발표! |
 
 #### 결과
-성능(Accuracy): TBD
+성능(Accuracy):
+1일차: 0.70(KoELECTRA)
+2일차: 0.78(textCNN - Homogeneous Ensemble Stacking with augmented data)
 
-#### 모델 구성
-TBD
+#### 모델 구성(성능 순 나열)
+1. textCNN
+2. KoELECTRA
+3. BiLSTM
+4. KoBERT
