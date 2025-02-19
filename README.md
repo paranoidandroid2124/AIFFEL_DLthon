@@ -48,3 +48,8 @@ DKTC 훈련 데이터에 합성 데이터를 추가하여,
 2. KoELECTRA
 3. BiLSTM
 4. KoBERT
+
+##### 디테일
+각 모델은 기본적으로 하이퍼파라미터를 조정한 동형의 앙상블을 기반으로 1차 스태킹을 하여 메타모델을 Fully Connected Network를 통해 학습합니다.
+
+메타 모델을 통해 Validation Data를 F1-score, Classification Report, Confusion Matrix 등의 시각화 도구를 사용하여 분석하고, Test Data를 기반으로 Submission 파일을 작성합니다.
