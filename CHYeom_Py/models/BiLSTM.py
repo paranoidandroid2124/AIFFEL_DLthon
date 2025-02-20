@@ -9,7 +9,7 @@ from tensorflow.keras.optimizers import Adam
 # 파라미터들 (textCNN과 동일하거나 필요에 따라 조정)
 vocab_size = 10000
 embedding_dim = 256
-max_len = 150
+max_len = 130
 
 def build_BiLSTM_model(lstm_units, num_layers):
     model = Sequential()

@@ -10,7 +10,7 @@ from tensorflow.keras.optimizers import Adam
 # 파라미터들은 필요에 맞게 수정
 vocab_size = 10000
 embedding_dim = 256
-max_len = 150
+max_len = 130
 
 def build_textcnn_model(kernel_size, dropout):
     model = Sequential()
