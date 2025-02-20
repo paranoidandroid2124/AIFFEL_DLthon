@@ -114,7 +114,7 @@ val_f1 = f1_score(val_y, val_pred_labels, average='weighted')
 print(f"Validation Weighted F1-score: {val_f1:.4f}")
 
 # 3. Classification Report 출력
-num_classes = 5  # 클래스 수에 맞게 수정 (여기서는 5개 클래스로 가정)
+num_classes = 5
 class_names = [f"Class {i}" for i in range(num_classes)]
 report = classification_report(val_y, val_pred_labels, target_names=class_names)
 print("Classification Report:\n", report)
